@@ -1,0 +1,14 @@
+h1 {color:green;
+}
+
+p {font-family:Tahoma;
+	color:red;
+	font-size:20px
+}
+
+a {color:orange;
+}
+
+	/*External Style Sheet*/
+	/*Are sets of rules you can apply to your website. This is helpful if you 
+		have lots of pages on your website- so you dont have to do them individually.*/

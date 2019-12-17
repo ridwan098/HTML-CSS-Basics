@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC !-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<style type = "text/css">
+		h4 {text-align:center;
+			color:white;
+		}
+
+		h4 span {border:dashed red 3px;								
+				background-color:blue;
+				padding:10px;				
+		}
+
+		h4:hover {color:black;
+				  text-decoration: underline;}
+
+		ul.one {list-style-type:arabic-indic;/*This is the way the bullett points look like*/
+		/*They can be attribute names such as "square", "circle" or "katakana" etc.*/
+
+		}
+
+		ul.two {list-style-type:none;
+				padding:0;/*You have to explicitly mention that ther is no passing, otherwise it wil continue to have padding as all lists come with padding automatically*/
+				border:solid purple 2px;}
+
+		ul.three {list-style-image:url("check sign.jpg");
+		}
+
+		p {font-family:sans-serif;
+			text-align:center;
+			color:blue;
+		}
+	</style>
+</head>
+
+<body>
+	<br/>
+	<h4><span>Tut 27| Styling Unordered Lists</span></h4>
+
+	<br/>
+	<hr color = "green"/>
+	<ul class = "one">
+		<li>Foil Paper</li>
+		<li>Knife</li>
+		<li>Fork</li>
+		<li>Spoon</li>
+	</ul>
+	<ul class = "two">
+		<li>Apple</li>
+		<li>Orange</li>
+		<li>Fish</li>
+		<li>Bread</li>
+	</ul>
+		<ul class = "three">
+		<li>Apple</li>
+		<li>Orange</li>
+		<li>Fish</li>
+		<li>Bread</li>
+	</ul>
+
+	<br/>
+	<p>The above and below are all lists, however the padding for the second lists has been removed</p>
+	<p>The images are not working for some reason :( need to find a way to fix it</p>
+</body>
+</html>
